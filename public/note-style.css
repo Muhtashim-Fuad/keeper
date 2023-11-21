@@ -1,0 +1,63 @@
+.note-base
+{
+    font-family: "Montserrat";
+    font-style: 15px;
+    margin: 10px;
+    background-color: #e2dac7;
+    border-radius: 10px;
+    border: 1.5px solid rgba(180, 173, 155, 0.231);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    width: 100%;
+    height: fit-content;
+
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.note-base:active
+{
+    background-color: #d6cdb5;
+    transition: all 0.15s ease-in-out;
+}
+
+.note-title
+{
+    color: #202020;
+    margin-bottom: 5px;
+}
+
+.note-text
+{
+    color: #454545;
+    font-size: 13.5px;
+}
+
+.note-delete
+{
+    color: #5e5e5e;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.note-delete div
+{
+    margin-top: 15px;
+    border-radius: 50%;
+    padding: 7.5px;
+    display: flex;
+    transition: all 0.35s ease-in-out;
+}
+
+.note-delete div:active
+{
+    background-color: #ebe3cc;
+    transition: all 0.35s ease-in-out;
+}
+
+.note-delete div:hover
+{
+    background-color: #c9c1b1;
+    transition: all 0.35s ease-in-out;
+}
